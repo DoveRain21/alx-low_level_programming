@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main function - reset_to_98
+ * reset_to_98 - Main
  * @n: Address
  *
  * Description - function that takes a pointer to an int as parameter
