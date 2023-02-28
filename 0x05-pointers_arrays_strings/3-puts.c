@@ -1,22 +1,20 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- *_puts - main function
- *@s: Arguments
+ * _puts - Entry point
+ * @str: Pointer to char
  *
- *Description: a function that prints a string
- *followed by a new line, to stdout
+ * Description: Prints a string and new line to stdout
  *
- * Return: none
+ * Return: 0
  */
 
 void _puts(char *str)
-
 {
 	while (*str != '\0')
 	{
-		_putchar(*str++);
+		_putchar(*str);
+		str++;
 	}
 	_putchar('\n');
 }
