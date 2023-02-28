@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * _strlen - main function
  * @s: Pointer of a char address
@@ -8,7 +8,7 @@
  *
  * Return: none
  */
-int _strlen(char *s);
+int _strlen(char *s)
 {
 	int i = 0;
 
