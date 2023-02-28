@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 
 /**
  * _puts - Entry point
@@ -6,7 +7,7 @@
  *
  * Description: Prints a string and new line to stdout
  *
- * Return: 0
+ * Return: none
  */
 
 void _puts(char *str)
