@@ -1,4 +1,4 @@
-include <stdio.h>
+#include <stdio.h>
 
 /**
  * main - entry point
@@ -19,4 +19,3 @@ int main(void)
 	putchar(10);
 	return (0);
 }
-
